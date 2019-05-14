@@ -3,7 +3,7 @@
 # Lists: ordered, changeable, allows duplicate members
 
 # Create list
-import datetime
+
 numbers = [1, 2, 3, 4, 5]
 fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 
@@ -174,7 +174,7 @@ print(getSum(10, 20))
 
 # Lambda function: similar to JS arrow functions
 
-# getSum= lambda num1, num2: num1 + num2
+# getSum = lambda num1, num2: num1 + num2
 
 
 print(getSum(10, 3))
@@ -266,12 +266,3 @@ count = 0
 while count <= 10:
     print(f'Count: {count}')
     count += 1
-
-# Modules
-
-
-today = datetime.date.today()
-print(today)
-# Classes & Objects
-# Working With Files
-# Working With JSON
