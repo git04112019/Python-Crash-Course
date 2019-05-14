@@ -3,6 +3,7 @@
 # Lists: ordered, changeable, allows duplicate members
 
 # Create list
+import datetime
 numbers = [1, 2, 3, 4, 5]
 fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 
@@ -235,7 +236,42 @@ if x is not y:
     print(x is not y)
 
 # Loops
+
+# For loop
+people = ['John', 'Paul', 'Sara', 'Susan']
+for person in people:
+    print(f'Current Person: {person}')
+
+# Break
+for person in people:
+    if person == 'Sara':
+        break
+    print(f'Current Person: {person}')
+
+# Continue
+for person in people:
+    if person == 'Sara':
+        continue
+    print(f'Current Person: {person}')
+
+# range
+for i in range(len(people)):
+    print(people[i])
+
+for i in range(0, 11):
+    print(f'Number: {i}')
+
+# While loop
+count = 0
+while count <= 10:
+    print(f'Count: {count}')
+    count += 1
+
 # Modules
+
+
+today = datetime.date.today()
+print(today)
 # Classes & Objects
 # Working With Files
 # Working With JSON
